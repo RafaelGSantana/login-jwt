@@ -65,13 +65,14 @@ Senha: 123456
 
 ##### Correção de bugs
 
-- Funcionalidade de logout, limpa o storage, mas não recireciona para tela de login. É necessário atualizar a página para redirecionar.
+- Funcionalidade de logout, limpa o storage, mas não redireciona para tela de login. É necessário atualizar a página para redirecionar.
 
 ##### Melhorias
 
 - Fazer validação dos campos pelo front-end e exibir mensagem de erro.
 - Refatorar a parte de rotas privadas
 - Enviar token nas requisições de rotas privadas
+- Fazer a funcionalidade de cadastro
 - Refatoração do código
 
 
