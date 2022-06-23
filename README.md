@@ -72,7 +72,7 @@ Senha: 123456
 - Fazer validação dos campos pelo front-end e exibir mensagem de erro.
 - Refatorar a parte de rotas privadas
 - Enviar token nas requisições de rotas privadas
-- Fazer a funcionalidade de cadastro
-- Refatoração do código
+- Fazer a funcionalidade de cadastro no front-end
+- Refatoração do código (Back-end/ Front-end)
 
 
