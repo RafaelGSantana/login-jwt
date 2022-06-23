@@ -30,7 +30,7 @@ export function SignIn() {
          navigate('/private');
       } catch(error) {
          console.log(error)
-         alert("Não foi possível concluir o cadastro. Verifique as credenciais")
+         alert("Não foi possível concluir o cadastro. Verifique as credenciais");
       }
    }
 

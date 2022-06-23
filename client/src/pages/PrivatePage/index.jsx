@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FiLogOut } from 'react-icons/fi';
 
@@ -15,9 +15,22 @@ import {
 } from './styles';
 
 export function PrivatePage() {
-   const { signOut, signed } = useContext(AuthContext);
+   const [user, setUser] = useState('');
+   const { signOut } = useContext(AuthContext);
    const navigate = useNavigate();
-console.log(signed)
+
+   useEffect(() => {
+      async function loadStorageName() {
+         const storageUserName = localStorage.getItem("@login-jwt:user");
+
+         if(storageUserName) {
+            setUser(storageUserName);
+         }
+      }
+
+      loadStorageName();
+   }, []);
+
    function handleSignOut() {
       signOut();
 
@@ -28,7 +41,7 @@ console.log(signed)
          <Header>
             <HeaderContent>
                <UserGreetings>
-                  <p>Olá, Rafael</p>
+                  <p>Olá, {user}</p>
                </UserGreetings>
 
                <Logout onClick={handleSignOut}>
