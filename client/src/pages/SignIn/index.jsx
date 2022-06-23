@@ -12,9 +12,9 @@ import {
 import logo from "../../assets/logoWati.png";
 
 export function SignIn() {
-   const { signIn } = useContext(AuthContext);
+   const { signIn, signed } = useContext(AuthContext);
    const navigate = useNavigate();
-   
+   console.log(signed)
    const [email, setEmail] =useState('');
    const [password, setPassword] =useState('');
 

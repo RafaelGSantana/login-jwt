@@ -15,9 +15,9 @@ import {
 } from './styles';
 
 export function PrivatePage() {
-   const { signOut } = useContext(AuthContext);
+   const { signOut, signed } = useContext(AuthContext);
    const navigate = useNavigate();
-
+console.log(signed)
    function handleSignOut() {
       signOut();
 
