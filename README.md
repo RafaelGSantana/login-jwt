@@ -59,4 +59,19 @@ Senha: 123456
 E-mail: jose@teste.com
 Senha: 123456
 
+---
+
+#### Próximos passos
+
+##### Correção de bugs
+
+- Funcionalidade de logout, limpa o storage, mas não recireciona para tela de login. É necessário atualizar a página para redirecionar.
+
+##### Melhorias
+
+- Fazer validação dos campos pelo front-end e exibir mensagem de erro.
+- Refatorar a parte de rotas privadas
+- Enviar token nas requisições de rotas privadas
+- Refatoração do código
+
 
