@@ -46,7 +46,7 @@ Com estes comandos, a aplicação estará rodando.
 
 Neste projeto, deixei o arquivo .env exposto, para facilitar o teste da aplicação.
 
-Deixo abaixo, alguns credenciais de acesso, pois a funcionalidade de cadastro no front-end ainda não foi finalizada
+Deixo abaixo, algumas credenciais de acesso, pois a funcionalidade de cadastro no front-end ainda não foi finalizada
 
 Credenciais
 
