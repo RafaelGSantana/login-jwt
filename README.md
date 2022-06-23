@@ -65,10 +65,13 @@ Senha: 123456
 
 ##### Melhorias
 
-- Fazer validação dos campos pelo front-end e exibir mensagem de erro.
+- Fazer validação dos campos pelo front-end e melhorar a exibição das mensagem de erro.
 - Refatorar a parte de rotas privadas
 - Enviar token nas requisições de rotas privadas
 - Fazer a funcionalidade de cadastro no front-end
 - Refatoração do código (Back-end/ Front-end)
+- Remover arquivo .env do repositório
+- Adicionar instruções no README.md para execução do banco de dados
+
 
 
