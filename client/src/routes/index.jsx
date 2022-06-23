@@ -13,7 +13,7 @@ const Routes = () => {
       <MyRoutes>
          {/* Public Routes */}
       <Route path="/" element={signed ? <Navigate to="/private" /> : <SignIn />} />
-      <Route path="/register" element={signed ? <Navigate to="/private" /> : <Register />} />
+      <Route path="/register" element={<Register />} />
 
          {/* Private Routes */}
          <Route path="/private" element={signed ? <PrivatePage /> : <Navigate to="/" />} />

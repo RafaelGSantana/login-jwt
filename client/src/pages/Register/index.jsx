@@ -5,8 +5,13 @@ import {
 } from './styles';
 
 import logo from "../../assets/logoWati.png";
+import { useEffect } from 'react';
 
 export function Register() {
+   useEffect(() => {
+      alert("Cadastro indisponível no momento");
+   }, []);
+
    return (
       <Container>
          <BackgroundImgWrapper>

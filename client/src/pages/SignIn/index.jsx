@@ -66,7 +66,7 @@ export function SignIn() {
 
             </form>
 
-            <p>Não possui conta? <a href="">Cadastre-se aqui</a></p>
+            <p>Não possui conta? <a href="/register">Cadastre-se aqui</a></p>
          </Content>
       </Container>      
    );
