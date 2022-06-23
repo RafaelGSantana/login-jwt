@@ -63,10 +63,6 @@ Senha: 123456
 
 #### Próximos passos
 
-##### Correção de bugs
-
-- Funcionalidade de logout, limpa o storage, mas não redireciona para tela de login. É necessário atualizar a página para redirecionar.
-
 ##### Melhorias
 
 - Fazer validação dos campos pelo front-end e exibir mensagem de erro.
